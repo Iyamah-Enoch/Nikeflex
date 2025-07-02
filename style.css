@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(126, 126, 126);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: rgb(230, 170, 6);
+    height: 2rem;
+}
+
+.header h1 {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+.header nav a {
+    gap: 1rem;
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.5rem;
+    font-weight: bold;
+    font-family: Montserrat;
+    z-index: 1000;
+}
+
+.header nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+  display: flex;
+}
+
+.sign {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.second {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    line-height: 2rem;
+    height: 70vh;
+}
+
+.second::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('nikeshoe.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(30%);
+    z-index: -1;
+}
+
+.store h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2rem;
+}
+
+.store p {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: rgb(179, 179, 179);
+    font-family: Montserrat;
+}
+
+.third {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    line-height: 1rem;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+}
+
+.who h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.who p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: grey;
+    font-family: Montserrat;
+}
+
+.fourth {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    line-height: 1rem;
+    height: fit-content;
+}
+
+.fourth::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('nikeshoe1.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(30%);
+    z-index: -1;
+}
+
+.choose h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.choose p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: grey;
+    font-family: Montserrat;
+}
+
+.line {
+    height: 0.1rem;
+    background-color: rgb(46, 46, 46);
+}
+
+.fifth {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    color: white;
+    overflow: hidden;
+    line-height: 1rem;
+    height: fit-content;
+}
+
+.fifth::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('nikeshoe2.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(30%);
+    z-index: -1;
+}
+
+.join h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Montserrat;
+    line-height: 2rem;
+}
+
+.join p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: grey;
+    font-family: Montserrat;
+}
+
+.join button {
+    background-color: rgb(252, 190, 21);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shopbtn {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+    color: grey;
+    font-family: Montserrat;
+}
+
+.footer a {
+    color: rgb(252, 190, 21);
+    text-decoration: none;
+}
+
+.menu-toggle {
+  font-size: 24px;
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none; /* show only on mobile */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 640px) {
+    .header {
+        align-items: center;
+        padding: 1rem;
+        height: fit-content;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    left: auto;
+    background: #222;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .nav-links.active {
+    transform: scaleY(1);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header nav a {
+        font-size: 0.8rem;
+    }
+
+    .header button {
+        font-size: 0.8rem;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .second, .third, .fourth, .fifth {
+        padding: 1rem;
+    }
+
+    .store h1, .who h1, .choose h1, .join h1 {
+        font-size: 1.5rem;
+    }
+
+    .store p, .who p, .choose p, .join p {
+        font-size: 0.9rem;
+    }
+}
